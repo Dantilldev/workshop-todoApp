@@ -1,8 +1,24 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+#Todolist App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Description
+This project is part of an assignment from our course, where we practiced using state and callback functions in React. The app is a simple todolist that allows users to add, update, and delete tasks.
+
+Functionality
+Add Task: Users can enter a task in the input field and click "Add" to add it to the list.
+
+Mark as Done: Each task has a button that allows the user to mark it as done or not done.
+
+Delete Task: Each task has a delete button that allows the user to remove it from the list.
+
+Delete All Tasks: There is a button that allows the user to delete all tasks at once.
+
+localStorage: The app saves and restores tasks from localStorage, ensuring that tasks persist even after the page is refreshed.
+
+Technologies Used
+React: Library for building user interfaces.
+
+Vite: Build tool for faster development.
+
+localStorage: Saves data locally to retain the list even after page reloads.
